@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twitter Hacks",
+  "version": "0.1",
+  "author": "Stefan Arentz",
+
+  "content_scripts": [
+    {"matches": ["*://*.twitter.com/*"], "js": ["main.js"], "run_at": "document_start"}
+  ]
+}
